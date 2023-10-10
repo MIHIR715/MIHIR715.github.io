@@ -1,0 +1,97 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/06/23/01/background-2723434_1280.jpg");
+    height: 20cm;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#login{
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 8px;
+    height: auto;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 15% auto;
+}
+
+.userbox{
+    padding: 10px;
+    margin-right:50cm;
+    
+}
+
+h2{
+    text-align: left;
+    
+}
+
+.password{
+    display: inline-block;
+    width:8cm;
+    height: 0.8cm;
+    text-shadow: 10px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: large;
+}
+.email{
+    display: inline-block;
+    width:8cm;
+    height: .8cm;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: large;
+    text-shadow: 10px;
+}
+.submit{
+
+    margin-top: .4cm;
+    padding: 10px;
+    background-color:transparent;
+    border-radius: 8px;
+    /* color:white; */
+    font-size: x-large;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border-style: none;
+}
+
+.submit:hover{
+    color: rgb(4, 228, 4);
+    cursor: pointer;
+}
+.reset{
+    /* width:2cm; */
+    /* height: 1cm; */
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    border-radius: 8px;
+    border-style:none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    
+}
+.reset:hover{
+    color: rgb(4, 228, 4);
+    cursor: pointer;
+
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: x-large;
+}
+
+#c1{
+    text-align: center;
+    color:black;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+#c1:hover{
+    color: rgb(121, 121, 252);
+}

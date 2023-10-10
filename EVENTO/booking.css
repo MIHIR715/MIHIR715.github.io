@@ -1,0 +1,35 @@
+
+body{
+ /* background: scroll; */
+ background:linear-gradient(blue,white);
+ background-size: cover;
+ /* filter: blur(5px); */
+
+}
+.E{
+    /* /* width: 50cm; */
+    height: 15cm; 
+    width: 20cm;
+    
+    background: linear-gradient(orange,white);
+    
+    font-size:2cm;
+    
+    border: 10px groove black;
+    
+    padding: 50px;
+    
+    margin-left: 25%;
+    margin-top: 15%;
+    margin-right:75%;
+    margin-bottom: 75%;
+}
+.event{
+    height: 50cm;
+    
+    
+}
+#event{
+    color: blue;
+    font-size: 1cm;
+}

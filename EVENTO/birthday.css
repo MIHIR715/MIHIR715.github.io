@@ -1,0 +1,100 @@
+body {
+    background-image: url('https://images.pexels.com/photos/4439461/pexels-photo-4439461.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Add your birthday-themed image URL here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.head {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.birthintro {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+#eplanner {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.tag {
+    -webkit-text-stroke-width: 1px;
+    font-size: 1.5em;
+}
+
+.booking {
+    font-size: 1.2em;
+    padding: 20px;
+    margin: 20px;
+    border: 4px groove rgb(249, 248, 248);
+}
+
+.images{
+    height:50%;
+    width:50%;
+    
+    margin: auto;
+}
+
+.booking input,
+.booking textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#submit, .login {
+    cursor: pointer;
+    font-size: 1.2em;
+    border-style: none;
+    border-radius: 8px;
+}
+
+#submit:hover, .login:hover {
+    background-color: rgb(152, 1, 152);
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .head {
+        font-size: 1.5em;
+    }
+
+    .birthintro, #eplanner {
+        font-size: 1em;
+    }
+
+    .tag {
+        font-size: 1.2em;
+    }
+
+    .booking {
+        font-size: 1em;
+    }
+}
+
+/* Add animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 1s forwards;
+}

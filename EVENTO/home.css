@@ -1,0 +1,132 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2029&q=80");
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    /* border: 2px solid red; */
+    display: inline-block;
+    font-size: 4vw; /* Adjust font size based on viewport width */
+    letter-spacing: 2px;
+    font-family: Sofia;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    position:sticky;
+}
+
+.navbar {
+    background-color: transparent;
+    /* border: black 2px solid; */
+    float: right;
+    position: absolute;
+}
+
+.navbar ul {
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 8px;
+    font-size: 1.5vw; /* Adjust font size based on viewport width */
+    /* border: pink 2px solid; */
+    border-radius: 8px;
+}
+
+.navbar li a {
+    padding: 3px 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li:hover {
+    background-color: rgb(221, 74, 221);
+    border-radius: 5px;
+}
+
+#intro {
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: auto;
+    padding: 10px;
+}
+
+.images {
+    /* border: 4px blue solid; */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.e {
+    -webkit-text-stroke: 0.1vw purple;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw; /* Adjust font size based on viewport width */
+    text-align: center;
+    color: transparent;
+}
+
+.container2 {
+    /* border: 4px groove gold; */
+    padding: 3vw;
+    margin: auto;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#P1, #P2, #P3 {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 2vw;
+}
+
+.wed, .birthday, .meet {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* Add media queries for smaller screens */
+@media (max-width: 768px) {
+    .title {
+        font-size: 6vw;
+    }
+
+    .navbar li {
+        font-size: 3vw;
+    }
+
+    .e {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 8vw;
+    }
+
+    .navbar li {
+        font-size: 4vw;
+    }
+
+    .e {
+        font-size: 5vw;
+    }
+}
+
+#P1,#P2,#P3{
+    color: transparent;
+}
+#P1,#P2,#P3:hover{
+    -webkit-text-stroke: 1px white;
+    
+}
